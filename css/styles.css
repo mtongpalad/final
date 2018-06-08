@@ -1,0 +1,95 @@
+body{background-color:#D3D3D3	;
+    height:0px;}
+
+#canvas{border:2px solid transparent;
+        width:1250px;
+        height:10000px;
+        margin:0 auto;
+        position:relative;
+        background-image:url(../img/backgroundv2.png);
+
+        }
+
+#ball{background-image:url("../img/weirdguy.gif");
+       margin-top:0px;
+       width:250px;
+       height:250px;
+     position:absolute;
+}
+
+
+}
+
+#header{margin-top:10px;
+   border:none;
+   font-size:60px;
+   color: black;
+   font-family: 'Lobster', cursive;
+   position:absolute;
+   top:90px;
+   left:35px;
+   background-color:none;
+  }
+
+
+#dpool1{background-image:url(../img/black.jpg);
+      border:none;
+      top:1300px;
+      height:1250px;
+      width:4000px;
+      z-index:1;
+      position:absolute;}
+
+      #dpool2{background-image:url(../img/black.jpg);
+            border:none;
+            top:3780px;
+            height:1250px;
+            width:4000px;
+            z-index:1;
+            position:absolute;}
+
+            #dpool3{background-image:url(../img/black.jpg);
+                  border:none;
+                  top:6280px;
+                  height:1250px;
+                  width:4000px;
+                  z-index:1;
+                  position:absolute;}
+
+                  #dpool4{background-image:url(../img/black.jpg);
+                        border:none;
+                        top:8780px;
+                        height:1250px;
+                        width:4000px;
+                        z-index:1;
+                        position:absolute;}
+
+#gma1{background-image:url(../img/g1.png);
+            border:none;
+            top:1300px;
+            left: 300px;
+            height:700px;
+            width:700px;
+            z-index:2;
+            position:absolute;}
+
+
+
+            #rp{background-image:url("../img/weirdkid1a.png");
+                  height:400px;
+                  width:400px;
+                  //top:3000px;
+                  left:80px;
+                  position:absolute;
+                  display:block;
+                  transition:1s;
+                  z-index: 3;
+            }
+
+            #container{
+                        width:500px;
+                        height:500px;
+                        top:3000px;
+                        margin-left:20px;
+                        position:absolute;
+                        transition:1s;}
